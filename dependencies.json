@@ -1,0 +1,919 @@
+{
+  "name": "ConsoleApp2",
+  "disposition": "Accepted",
+  "version": "1.0.0",
+  "children": [
+    {
+      "name": "Msft.AspNet.Mvc",
+      "disposition": "Accepted",
+      "children": [
+        {
+          "name": "Msft.AspNet.FileSyss",
+          "disposition": "Accepted",
+          "children": [],
+          "version": "1.0.0-alpha3-10073"
+        },
+        {
+          "name": "Msft.AspNet.Http",
+          "disposition": "Accepted",
+          "children": [],
+          "version": "1.0.0-alpha3-10082"
+        },
+        {
+          "name": "Msft.AspNet.Mvc.Common",
+          "disposition": "Accepted",
+          "children": [
+            {
+              "name": "Sys.Linq",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Reflection",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Reflection.Extensions",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            }
+          ],
+          "version": "6.0.0-alpha3-10215"
+        },
+        {
+          "name": "Msft.AspNet.Mvc.Core",
+          "disposition": "Accepted",
+          "children": [
+            {
+              "name": "Msft.AspNet.Security",
+              "disposition": "Accepted",
+              "children": [
+                {
+                  "name": "Msft.AspNet.FeatureModel",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "1.0.0-alpha3-10082"
+                },
+                {
+                  "name": "Msft.AspNet.HttpFeature",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "1.0.0-alpha3-10082"
+                },
+                {
+                  "name": "Msft.AspNet.PipelineCore",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "1.0.0-alpha3-10082"
+                },
+                {
+                  "name": "Msft.Fx.Logging",
+                  "disposition": "Accepted",
+                  "children": [
+                    {
+                      "name": "Sys.Globalization",
+                      "disposition": "Accepted",
+                      "children": [],
+                      "version": "null"
+                    },
+                    {
+                      "name": "Sys.Runtime",
+                      "disposition": "Accepted",
+                      "children": [],
+                      "version": "null"
+                    },
+                    {
+                      "name": "Sys.Runtime.InteropServices",
+                      "disposition": "Accepted",
+                      "children": [],
+                      "version": "null"
+                    }
+                  ],
+                  "version": "1.0.0-alpha3-10073"
+                }
+              ],
+              "version": "1.0.0-alpha3-10128"
+            },
+            {
+              "name": "Msft.AspNet.Security.DataProtection",
+              "disposition": "Accepted",
+              "children": [
+                {
+                  "name": "Sys.Security",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                }
+              ],
+              "version": "1.0.0-alpha3-10073"
+            },
+            {
+              "name": "Msft.Fx.OptionsModel",
+              "disposition": "Accepted",
+              "children": [
+                {
+                  "name": "Sys.Collections",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Collections.Concurrent",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.ComponentModel",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Diagnostics.Debug",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Diagnostics.Tools",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Linq",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Reflection",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Runtime",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Runtime.InteropServices",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Threading",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Threading.Tasks",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                }
+              ],
+              "version": "1.0.0-alpha3-10062"
+            },
+            {
+              "name": "Msft.Fx.Runtime.Interfaces",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "1.0.0-alpha3-10101"
+            }
+          ],
+          "version": "6.0.0-alpha3-10215"
+        },
+        {
+          "name": "Msft.AspNet.Mvc.ModelBinding",
+          "disposition": "Accepted",
+          "children": [
+            {
+              "name": "Msft.DataAnnotations",
+              "disposition": "Accepted",
+              "children": [
+                {
+                  "name": "Sys.ComponentModel.Annotations",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "4.0.0.0"
+                }
+              ],
+              "version": "1.0.0-alpha3-10074"
+            },
+            {
+              "name": "Sys.ComponentModel.DataAnnotations",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime.Serialization",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            }
+          ],
+          "version": "6.0.0-alpha3-10215"
+        },
+        {
+          "name": "Msft.AspNet.Mvc.Razor",
+          "disposition": "Accepted",
+          "children": [
+            {
+              "name": "K.Roslyn",
+              "disposition": "Accepted",
+              "children": [
+                {
+                  "name": "Msft.CodeAnalysis.Common",
+                  "disposition": "Accepted",
+                  "children": [
+                    {
+                      "name": "Msft.Bcl.Immutable",
+                      "disposition": "Accepted",
+                      "children": [],
+                      "version": "1.1.20-beta"
+                    },
+                    {
+                      "name": "Msft.Bcl.Metadata",
+                      "disposition": "Accepted",
+                      "children": [],
+                      "version": "1.0.11-alpha"
+                    }
+                  ],
+                  "version": "0.7.4060502-beta"
+                },
+                {
+                  "name": "Msft.CodeAnalysis.CSharp",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "0.7.4060502-beta"
+                }
+              ],
+              "version": "1.0.0-alpha3-10018"
+            },
+            {
+              "name": "Msft.Fx.Runtime.Interfaces",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "1.0.0-alpha3-10101"
+            },
+            {
+              "name": "Sys.Collections",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Xml",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Xml.Linq",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            }
+          ],
+          "version": "6.0.0-alpha3-10215"
+        },
+        {
+          "name": "Msft.AspNet.Mvc.Razor.Host",
+          "disposition": "Accepted",
+          "children": [
+            {
+              "name": "Sys.Collections",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Xml",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Xml.Linq",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            }
+          ],
+          "version": "6.0.0-alpha3-10215"
+        },
+        {
+          "name": "Msft.AspNet.Razor",
+          "disposition": "Accepted",
+          "children": [
+            {
+              "name": "Sys.IO.FileSys",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "4.0.10.0"
+            },
+            {
+              "name": "Sys.Threading.Thread",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "4.0.0.0"
+            },
+            {
+              "name": "Sys.Collections",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Diagnostics.Debug",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Diagnostics.Tools",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Globalization",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.IO",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Linq",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Reflection",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Resources.ResourceManager",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime.Extensions",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime.InteropServices",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Threading",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Threading.Tasks",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            }
+          ],
+          "version": "4.0.0-alpha3-10076"
+        },
+        {
+          "name": "Msft.AspNet.RequestContainer",
+          "disposition": "Accepted",
+          "children": [
+            {
+              "name": "Msft.Fx.OptionsModel",
+              "disposition": "Accepted",
+              "children": [
+                {
+                  "name": "Sys.Collections",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Collections.Concurrent",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.ComponentModel",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Diagnostics.Debug",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Diagnostics.Tools",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Linq",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Reflection",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Runtime",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Runtime.InteropServices",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Threading",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Threading.Tasks",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                }
+              ],
+              "version": "1.0.0-alpha3-10062"
+            }
+          ],
+          "version": "1.0.0-alpha3-10070"
+        },
+        {
+          "name": "Msft.AspNet.Routing",
+          "disposition": "Accepted",
+          "children": [
+            {
+              "name": "Msft.Fx.OptionsModel",
+              "disposition": "Accepted",
+              "children": [
+                {
+                  "name": "Sys.Collections",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Collections.Concurrent",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.ComponentModel",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Diagnostics.Debug",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Diagnostics.Tools",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Linq",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Reflection",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Runtime",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Runtime.InteropServices",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Threading",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Threading.Tasks",
+                  "disposition": "Accepted",
+                  "children": [],
+                  "version": "null"
+                }
+              ],
+              "version": "1.0.0-alpha3-10062"
+            }
+          ],
+          "version": "1.0.0-alpha3-10068"
+        },
+        {
+          "name": "Msft.Fx.ConfigurationModel",
+          "disposition": "Accepted",
+          "children": [
+            {
+              "name": "Sys.Collections",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Diagnostics.Debug",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Diagnostics.Tools",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Globalization",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Linq",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Reflection",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Resources.ResourceManager",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime.Extensions",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime.InteropServices",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            }
+          ],
+          "version": "1.0.0-alpha3-10079"
+        },
+        {
+          "name": "Msft.Fx.DependencyInjection",
+          "disposition": "Accepted",
+          "children": [
+            {
+              "name": "Sys.Collections",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Collections.Concurrent",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.ComponentModel",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Diagnostics.Debug",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Diagnostics.Tools",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Linq",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Reflection",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime.InteropServices",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Threading",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Threading.Tasks",
+              "disposition": "Accepted",
+              "children": [],
+              "version": "null"
+            }
+          ],
+          "version": "1.0.0-alpha3-10074"
+        }
+      ],
+      "version": "6.0.0-alpha2-10052"
+    },
+    {
+      "name": "EntityFx",
+      "disposition": "Accepted",
+      "children": [
+        {
+          "name": "Ix-Async",
+          "disposition": "Accepted",
+          "children": [],
+          "version": "1.2.2"
+        },
+        {
+          "name": "Msft.Bcl.Immutable",
+          "disposition": "Rejected",
+          "children": [],
+          "version": "1.1.18-beta-120"
+        },
+        {
+          "name": "Msft.Fx.DependencyInjection",
+          "disposition": "Rejected",
+          "children": [
+            {
+              "name": "Msft.Fx.ConfigurationModel",
+              "disposition": "Acceptable",
+              "children": [
+                {
+                  "name": "Sys.Globalization",
+                  "disposition": "Acceptable",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Resources.ResourceManager",
+                  "disposition": "Acceptable",
+                  "children": [],
+                  "version": "null"
+                },
+                {
+                  "name": "Sys.Runtime.Extensions",
+                  "disposition": "Acceptable",
+                  "children": [],
+                  "version": "null"
+                }
+              ],
+              "version": "1.0.0-alpha3-10076"
+            },
+            {
+              "name": "Sys.Collections.Concurrent",
+              "disposition": "Acceptable",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.ComponentModel",
+              "disposition": "Acceptable",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Diagnostics.Debug",
+              "disposition": "Acceptable",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Diagnostics.Tools",
+              "disposition": "Acceptable",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Linq",
+              "disposition": "Acceptable",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Reflection",
+              "disposition": "Acceptable",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime.InteropServices",
+              "disposition": "Acceptable",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Threading",
+              "disposition": "Acceptable",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Threading.Tasks",
+              "disposition": "Acceptable",
+              "children": [],
+              "version": "null"
+            }
+          ],
+          "version": "1.0.0-alpha3-10071"
+        },
+        {
+          "name": "Msft.Fx.Logging",
+          "disposition": "Rejected",
+          "children": [
+            {
+              "name": "Sys.Globalization",
+              "disposition": "Acceptable",
+              "children": [],
+              "version": "null"
+            },
+            {
+              "name": "Sys.Runtime.InteropServices",
+              "disposition": "Acceptable",
+              "children": [],
+              "version": "null"
+            }
+          ],
+          "version": "1.0.0-alpha3-10070"
+        },
+        {
+          "name": "Remotion.Linq",
+          "disposition": "Accepted",
+          "children": [],
+          "version": "1.15.13.0"
+        },
+        {
+          "name": "Sys.Collections",
+          "disposition": "Accepted",
+          "children": [],
+          "version": "null"
+        },
+        {
+          "name": "Sys.Linq.Expressions",
+          "disposition": "Accepted",
+          "children": [],
+          "version": "null"
+        },
+        {
+          "name": "Sys.ObjectModel",
+          "disposition": "Accepted",
+          "children": [],
+          "version": "null"
+        },
+        {
+          "name": "Sys.Runtime",
+          "disposition": "Accepted",
+          "children": [],
+          "version": "null"
+        }
+      ],
+      "version": "7.0.0-alpha2-10062"
+    },
+    {
+      "name": "Newtonsoft.Json",
+      "disposition": "Accepted",
+      "children": [],
+      "version": "5.0.8"
+    },
+    {
+      "name": "mscorlib",
+      "disposition": "Accepted",
+      "children": [],
+      "version": "null"
+    },
+    {
+      "name": "Sys",
+      "disposition": "Accepted",
+      "children": [],
+      "version": "null"
+    },
+    {
+      "name": "Sys.Core",
+      "disposition": "Accepted",
+      "children": [],
+      "version": "null"
+    },
+    {
+      "name": "Msft.CSharp",
+      "disposition": "Accepted",
+      "children": [],
+      "version": "null"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "MyApplication",
+  "disposition": "Accepted",
+  "version": "1.0.0",
+  "children": [
+    {
+      "name": "DependencyA",
+      "disposition": "Accepted",
+      "version" : "1.0",
+      "children": [
+      	{
+          "name": "DependencyB",
+          "disposition": "Rejected",
+          "version": "1.0.1",
+          "children": []
+          }
+        ]
+    },
+    {
+      "name": "DependencyB",
+      "disposition": "Accepted",
+      "version": "1.0.0",
+      "children": []
+    }
+  ]
+}
